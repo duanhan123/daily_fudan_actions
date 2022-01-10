@@ -53,7 +53,7 @@ jobs:
 
 am_inf=22
 am_sup=24
-pm_inf = 12
+pm_inf = 13
 pm_sup = 15
 t_inf = 4
 t_sup = 15
