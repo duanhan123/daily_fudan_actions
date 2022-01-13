@@ -51,8 +51,8 @@ jobs:
         run: python3 ./run.py '${{ secrets.FUDAN }}'
 '''
 
-am_inf=23
-am_sup=24
+am_inf=22
+am_sup=23
 pm_inf = 14
 pm_sup = 15
 t_inf = 4
