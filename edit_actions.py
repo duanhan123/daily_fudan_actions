@@ -124,7 +124,7 @@ def main():
     if is_autocreated():
         if git_revoke():
           print("not update schedule\n")
-            return
+          return
     update_schedule()
     git_push()
 
