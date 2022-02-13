@@ -126,6 +126,7 @@ def main():
           print("not update schedule\n")
           return
     update_schedule()
+    print("schedule updated\n")
     git_push()
 
 try:
