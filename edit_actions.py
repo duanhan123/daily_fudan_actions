@@ -56,7 +56,7 @@ am_sup=23
 pm_inf = 14
 pm_sup = 15
 t_inf = 4
-t_sup = 15
+t_sup = 16
 
 def getRandCron_am():
     mins = randint(0,59)
@@ -73,8 +73,8 @@ def is_pm():
     uctnow = uctnow.hour
     if uctnow < t_inf:
         uctnow += 24
-    ##return t_inf < uctnow < t_sup
-    return True
+    return t_inf < uctnow < t_sup
+    ##return True
     
 def get_schedule():
     return schedule_template%(getRandCron_am(),getRandCron_pm())
